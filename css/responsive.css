@@ -32,3 +32,40 @@
         font-size: 16px
     }
 }
+@media (max-width:420px){
+    header .menu-icon{
+        display: block;
+        font-size:40px;
+        color:#6988F8;
+    }
+    main h1{
+        padding: 0px 20px;
+        text-align: center;
+        font-size: 25px;
+    }
+    main p{
+        padding: 0px 20px;
+        text-align: center;
+        font-size: 16px;
+    }
+    main img{
+        width: 400px;
+    }
+    .body-page{
+        padding: 120px 40px 0px;
+    }
+    .body-page-title h1{
+        text-align: center;
+    }
+    .cards .phots{
+        left: 15px;
+    }
+    .kontak h1{
+        margin-bottom: 50px;
+        padding: 0px 20px;
+    }
+    .kontaks .log{
+        display: flex;
+        flex-direction: column;
+    }
+}
